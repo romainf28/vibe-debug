@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vibe-debug": {
+      "command": "uv",
+      "args": ["run", "python", "<PROJECT_PATH>/start_debug_mcp.py"]
+    },
+    "env": {
+        "PYTHONPATH": "<PROJECT_PATH>"
+    }
+  }
+}
